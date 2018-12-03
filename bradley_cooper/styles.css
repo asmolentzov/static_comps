@@ -1,0 +1,77 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.grid-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+}
+.box p {
+
+}
+.main-box {
+  grid-column: 1 / 3;
+}
+.main-pic {
+  height: 770px;
+  object-fit: cover;
+}
+.pictures {
+  grid-column: 4 / 6;
+  grid-row: 1 / 4;
+}
+
+.green {
+  background: #35BC7B;
+}
+.yellow {
+  background: #FF9E01;
+}
+.blue {
+  background: #1E8CC4;
+}
+.red {
+  background: #F15A48;
+}
+.orange {
+  background: #F86926;
+}
+
+#profile {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+#experience {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+#education {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+#blog {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+#social-menu {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+#contact {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+#portfolio {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
